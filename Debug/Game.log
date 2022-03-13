@@ -1,0 +1,29 @@
+﻿  Game.cpp
+SOIL.lib(image_DXT.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL.lib(image_DXT.obj)”或在“D:\Mr.Try\MyProject2022\GPCPP\Lux\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(image_helper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL.lib(image_helper.obj)”或在“D:\Mr.Try\MyProject2022\GPCPP\Lux\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(SOIL.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL.lib(SOIL.obj)”或在“D:\Mr.Try\MyProject2022\GPCPP\Lux\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL.lib(stb_image_aug.obj)”或在“D:\Mr.Try\MyProject2022\GPCPP\Lux\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  Game.vcxproj -> D:\Mr.Try\MyProject2022\GPCPP\Lux\Debug\Game.exe
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\libfreetype-6.dll
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\libogg-0.dll
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\libpng16-16.dll
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\libvorbis-0.dll
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\libvorbisfile-3.dll
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\SDL2.dll
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\SDL2_image.dll
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\SDL2_mixer.dll
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\SDL2_ttf.dll
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\SDL\lib\win\x86\zlib1.dll
+  复制了 10 个文件
+  D:\Mr.Try\MyProject2022\GPCPP\Lux\\..\external\GLEW\lib\win\x86\glew32.dll
+  复制了 1 个文件
+  C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib\fmod.dll
+  C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib\fmod64.dll
+  C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib\fmodL.dll
+  C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib\fmodL64.dll
+  复制了 4 个文件
+  C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\fmodstudio.dll
+  C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\fmodstudio64.dll
+  C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\fmodstudioL.dll
+  C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\fmodstudioL64.dll
+  复制了 4 个文件

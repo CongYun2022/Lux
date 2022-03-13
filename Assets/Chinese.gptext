@@ -1,0 +1,10 @@
+{
+	"TextMap":{
+		"PauseTitle": "暂停",
+		"ResumeButton": "从新开始",
+		"QuitButton": "退出游戏",
+		"QuitText": "确定退出游戏?",
+		"OKButton": "确定",
+		"CancelButton": "取消"
+	}
+}
