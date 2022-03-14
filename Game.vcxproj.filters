@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{12a47348-9a6e-404a-8d7e-2ffa91eb59f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AActor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="APlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AFPS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFPSCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ABall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBallMove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ATarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPauseMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AActor.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMove.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMesh.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="APlane.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEvent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAudio.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AFPS.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFPSCamera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ABall.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBallMove.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBox.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysWorld.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ATarget.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogBox.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHUD.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPauseMenu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTarget.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScreen.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Sprite.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Sprite.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\BasicMesh.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\BasicMesh.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Phong.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Phong.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc" />
+  </ItemGroup>
+</Project>
