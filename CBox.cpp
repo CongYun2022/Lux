@@ -1,7 +1,7 @@
 #include "CBox.h"
 #include "AActor.h"
 #include "Game.h"
-#include "PhysWorld.h"
+#include "SPhys.h"
 
 CBox::CBox(AActor* owner, int updateOrder)
 	:CComponent(owner, updateOrder)

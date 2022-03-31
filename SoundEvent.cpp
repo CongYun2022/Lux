@@ -1,8 +1,8 @@
 #include "SoundEvent.h"
-#include "AudioSystem.h"
+#include "SAudio.h"
 #include <fmod_studio.hpp>
 
-SoundEvent::SoundEvent(class AudioSystem* system, unsigned int id)
+SoundEvent::SoundEvent(class SAudio* system, unsigned int id)
 	:mSystem(system)
 	,mID(id)
 {

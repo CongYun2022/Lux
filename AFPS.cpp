@@ -2,7 +2,7 @@
 #include "CMove.h"
 #include "SDL/SDL_scancode.h"
 #include "Renderer.h"
-#include "AudioSystem.h"
+#include "SAudio.h"
 #include "Game.h"
 #include "CAudio.h"
 #include "CFPSCamera.h"

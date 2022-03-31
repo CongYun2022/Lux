@@ -1,7 +1,7 @@
 #include "CAudio.h"
 #include "AActor.h"
 #include "Game.h"
-#include "AudioSystem.h"
+#include "SAudio.h"
 
 CAudio::CAudio(AActor* owner, int updateOrder)
 	:CComponent(owner, updateOrder)

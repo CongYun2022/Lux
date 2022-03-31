@@ -13,7 +13,7 @@
   <ItemGroup>
     <ClCompile Include="AActor.cpp" />
     <ClCompile Include="CAudio.cpp" />
-    <ClCompile Include="AudioSystem.cpp" />
+    <ClCompile Include="SAudio.cpp" />
     <ClCompile Include="ABall.cpp" />
     <ClCompile Include="CBallMove.cpp" />
     <ClCompile Include="CBox.cpp" />
@@ -32,7 +32,7 @@
     <ClCompile Include="CMesh.cpp" />
     <ClCompile Include="CMove.cpp" />
     <ClCompile Include="UIPauseMenu.cpp" />
-    <ClCompile Include="PhysWorld.cpp" />
+    <ClCompile Include="SPhys.cpp" />
     <ClCompile Include="APlane.cpp" />
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Shader.cpp" />
@@ -47,7 +47,7 @@
   <ItemGroup>
     <ClInclude Include="AActor.h" />
     <ClInclude Include="CAudio.h" />
-    <ClInclude Include="AudioSystem.h" />
+    <ClInclude Include="SAudio.h" />
     <ClInclude Include="ABall.h" />
     <ClInclude Include="CBallMove.h" />
     <ClInclude Include="CBox.h" />
@@ -65,7 +65,7 @@
     <ClInclude Include="CMesh.h" />
     <ClInclude Include="CMove.h" />
     <ClInclude Include="UIPauseMenu.h" />
-    <ClInclude Include="PhysWorld.h" />
+    <ClInclude Include="SPhys.h" />
     <ClInclude Include="APlane.h" />
     <ClInclude Include="Renderer.h" />
     <ClInclude Include="resource.h" />

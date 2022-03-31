@@ -1,4 +1,27 @@
-﻿  Game.cpp
+﻿  AActor.cpp
+  CAudio.cpp
+  ABall.cpp
+  CBallMove.cpp
+  CBox.cpp
+  CCamera.cpp
+  UIDialogBox.cpp
+  Font.cpp
+  AFPS.cpp
+  Game.cpp
+  UIHUD.cpp
+  Main.cpp
+  CMesh.cpp
+  UIPauseMenu.cpp
+  SPhys.cpp
+  APlane.cpp
+  Renderer.cpp
+  CSprite.cpp
+  ATarget.cpp
+  CTarget.cpp
+  正在生成代码...
+  正在编译...
+  UIScreen.cpp
+  正在生成代码...
 SOIL.lib(image_DXT.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL.lib(image_DXT.obj)”或在“D:\Mr.Try\MyProject2022\GPCPP\Lux\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 SOIL.lib(image_helper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL.lib(image_helper.obj)”或在“D:\Mr.Try\MyProject2022\GPCPP\Lux\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 SOIL.lib(SOIL.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL.lib(SOIL.obj)”或在“D:\Mr.Try\MyProject2022\GPCPP\Lux\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样

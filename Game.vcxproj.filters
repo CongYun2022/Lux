@@ -52,7 +52,7 @@
     <ClCompile Include="APlane.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AudioSystem.cpp">
+    <ClCompile Include="SAudio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SoundEvent.cpp">
@@ -82,7 +82,7 @@
     <ClCompile Include="Collision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PhysWorld.cpp">
+    <ClCompile Include="SPhys.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ATarget.cpp">
@@ -147,7 +147,7 @@
     <ClInclude Include="APlane.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="AudioSystem.h">
+    <ClInclude Include="SAudio.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="SoundEvent.h">
@@ -177,7 +177,7 @@
     <ClInclude Include="Collision.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="PhysWorld.h">
+    <ClInclude Include="SPhys.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="ATarget.h">

@@ -2,7 +2,7 @@
 #include "AActor.h"
 #include "Renderer.h"
 #include "Game.h"
-#include "AudioSystem.h"
+#include "SAudio.h"
 
 CCamera::CCamera(AActor* owner, int updateOrder)
 	:CComponent(owner, updateOrder)

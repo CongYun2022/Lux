@@ -3,7 +3,7 @@
 #include "Shader.h"
 #include "Game.h"
 #include "Renderer.h"
-#include "PhysWorld.h"
+#include "SPhys.h"
 #include "AFPS.h"
 #include <algorithm>
 #include "CTarget.h"
@@ -78,7 +78,7 @@ void UIHUD::UpdateCrosshair(float deltaTime)
 	mGame->GetRenderer()->GetScreenDirection(start, dir);
 	LineSegment l(start, start + dir * cAimDist);
 	// Segment cast
-	PhysWorld::CollisionInfo info;
+	SPhys::CollisionInfo info;
 	if (mGame->GetPhysWorld()->SegmentCast(l, info))
 	{
 		// Is this a target?

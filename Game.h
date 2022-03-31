@@ -18,8 +18,8 @@ public:
 	void RemoveActor(class AActor* actor);
 
 	class Renderer* GetRenderer() { return mRenderer; }
-	class AudioSystem* GetAudioSystem() { return mAudioSystem; }
-	class PhysWorld* GetPhysWorld() { return mPhysWorld; }
+	class SAudio* GetAudioSystem() { return mAudioSystem; }
+	class SPhys* GetPhysWorld() { return mPhysWorld; }
 	class UIHUD* GetHUD() { return mHUD; }
 	
 	// Manage UI stack
@@ -65,8 +65,8 @@ private:
 	std::vector<class AActor*> mPendingActors;
 
 	class Renderer* mRenderer;
-	class AudioSystem* mAudioSystem;
-	class PhysWorld* mPhysWorld;
+	class SAudio* mAudioSystem;
+	class SPhys* mPhysWorld;
 	class UIHUD* mHUD;
 
 	Uint32 mTicksCount;

@@ -1,7 +1,7 @@
 #include "CBallMove.h"
 #include "AActor.h"
 #include "Game.h"
-#include "PhysWorld.h"
+#include "SPhys.h"
 #include "ATarget.h"
 #include "ABall.h"
 
@@ -22,8 +22,8 @@ void CBallMove::Update(float deltaTime)
 	LineSegment l(start, end);
 
 	// Test segment vs world
-	PhysWorld* phys = mOwner->GetGame()->GetPhysWorld();
-	PhysWorld::CollisionInfo info;
+	SPhys* phys = mOwner->GetGame()->GetPhysWorld();
+	SPhys::CollisionInfo info;
 	// (Don't collide vs player)
 	if (phys->SegmentCast(l, info) && info.mActor != mPlayer)
 	{

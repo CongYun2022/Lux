@@ -1,8 +1,8 @@
 #include "Game.h"
 #include <algorithm>
 #include "Renderer.h"
-#include "AudioSystem.h"
-#include "PhysWorld.h"
+#include "SAudio.h"
+#include "SPhys.h"
 #include "AActor.h"
 #include "UIScreen.h"
 #include "UIHUD.h"
@@ -48,7 +48,7 @@ bool Game::Initialize()
 	}
 
 	// Create the audio system
-	mAudioSystem = new AudioSystem(this);
+	mAudioSystem = new SAudio(this);
 	if (!mAudioSystem->Initialize())
 	{
 		SDL_Log("Failed to initialize audio system");
@@ -59,7 +59,7 @@ bool Game::Initialize()
 	}
 
 	// Create the physics world
-	mPhysWorld = new PhysWorld(this);
+	mPhysWorld = new SPhys(this);
 	
 	// Initialize SDL_ttf
 	if (TTF_Init() != 0)
